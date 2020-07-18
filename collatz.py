@@ -7,7 +7,7 @@ def collatz(num):
             sleep(0.5)
         elif num % 2 == 1:
             num = 3 * num + 1
-            sleep(0.25)
+            sleep(0.5)
     print(1)
 
 def main():
